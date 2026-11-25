@@ -573,3 +573,36 @@ input[type="email"] {
     padding: 22px 18px;
   }
 }
+
+.example-box {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--terracotta);
+  padding: 18px 18px 18px 20px;
+  background: var(--paper-deep);
+  max-width: 720px;
+  margin: 8px 0 28px;
+}
+
+.example-box p {
+  margin: 8px 0 0;
+  line-height: 1.55;
+}
+
+.cat-note {
+  color: var(--muted);
+  line-height: 1.55;
+  max-width: 680px;
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+
+.takes-tag {
+  font-size: 13px;
+  color: var(--terracotta);
+  margin-top: 4px;
+}
+
+.secondary-band {
+  padding-top: 28px;
+  padding-bottom: 48px;
+}
